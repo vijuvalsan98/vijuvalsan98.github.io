@@ -1,0 +1,36 @@
+to do alert
+// var total=0;
+// document.querySelector('#tdata').onclick = function(ev) {
+//   let f=0;  
+  
+//   if(ev.target.checked==true) {
+//     console.log('Checked '+ ev.target.id);
+//     total++;
+//   }
+//   else if(ev.target.checked==false){
+//     console.log('Unchecked '+ ev.target.id);
+//     total--;
+//   }
+//   else {
+//     f=1;
+//   }
+
+//   var promise = new Promise(function(resolve,reject){
+//     if(total==5 && f==0){
+//       resolve();
+//     }
+//     else if(f==0){
+//       reject(total)
+//     }
+//   })
+  
+//   promise
+//   .then(function(){
+//     alert('Congrats. 5 Tasks have been Successfully Completed');
+//     console.log(`5 tasks completed`);
+//   })
+//   .catch(function(c){
+//     console.log(`${c} tasks completed`);
+    
+//   })
+// }
